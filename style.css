@@ -1,6 +1,61 @@
+/* General settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Profile section */
+.profile {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Section styles */
+.section {
+    margin-top: 20px;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.section li {
+    margin-bottom: 8px;
+}
+
+/* Bold text */
+strong {
+    color: #3498db;
+}
+
+/* Hover effect */
+.section:hover {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
 }
